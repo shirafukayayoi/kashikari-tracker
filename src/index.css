@@ -1,0 +1,48 @@
+:root {
+  font-family:
+    'Yu Gothic UI', 'Hiragino Sans', 'BIZ UDPGothic', 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #f5edf2;
+  background: #080407;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --display:
+    Impact, Haettenschweiler, 'Arial Black', 'Yu Gothic UI', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #080407;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+button {
+  appearance: none;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
