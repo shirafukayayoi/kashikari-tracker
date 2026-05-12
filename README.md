@@ -27,6 +27,12 @@ npm run dev
 
 ブラウザで `http://localhost:5173` を開いて確認できます。
 
+## GitHub Pages
+
+- 本番公開先: [https://shirafukayayoi.github.io/kashikari-tracker/](https://shirafukayayoi.github.io/kashikari-tracker/)
+- `main` ブランチへ push すると GitHub Actions で自動デプロイされます。
+- GitHub 側の Pages 設定は `Build and deployment` を `GitHub Actions` にしておく必要があります。
+
 ## Scripts
 
 ```bash
